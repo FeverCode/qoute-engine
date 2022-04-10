@@ -1,5 +1,4 @@
-import { Component, OnInit, Output } from '@angular/core';
-import { EventEmitter } from 'stream';
+import { Component, OnInit, Output,EventEmitter } from '@angular/core';
 import { Quote } from '../quote';
 
 @Component({
@@ -9,9 +8,9 @@ import { Quote } from '../quote';
 })
 export class FormComponent implements OnInit {
   @Output() emitQuote= new EventEmitter()
-  quoteStr: string;
-  quotePublisher:string
-  quoteAuthor:string
+  quoteStr!: string;
+  quotePublisher!: string;
+  quoteAuthor!: string;
   theQuote:any
 
   submitQuote(  ){

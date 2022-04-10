@@ -15,7 +15,7 @@
 + [Licence](#licence)
 + [Authors Info](#authors-info)
 
-![Screenshot]()
+![Screenshot](./qoute-engine/src/assets/quote-engine.png)
 
 ## Description
 <p> Application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational</p>
